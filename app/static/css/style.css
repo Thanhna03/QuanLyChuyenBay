@@ -1,0 +1,109 @@
+h1{
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+}
+.image-container {
+      width: 100%;
+      height: 200px;
+      border: 0px solid #ccc;
+      overflow: hidden; /* để ảnh kh tràn ra khỏi div nếu nó lớn hơn */
+ }
+ .text_overlay{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+ }
+ .logo{
+    float: left;
+    font-size: 1.5em;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+ }
+.navbar_body{
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.navbar_left{
+    float: left;
+    color: #75BF7A;
+    font-family: ITC Avant Garde Gothic Pro;
+    font-size: 65.257px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+}
+.navbar_right{
+    float: right;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 17.161px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.navbar_hover{
+
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    color: #e44d26;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
